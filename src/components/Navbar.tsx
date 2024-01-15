@@ -35,7 +35,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header className="sticky top-0 left-0 bg-white shadow-md shadow-cyan-400/30">
+    <header className="sticky top-0 left-0 bg-white shadow-md shadow-cyan-400/30 z-[99999]">
       <div className="container mx-auto flex items-center justify-between px-2 py-4">
         <Link
           to="/"
